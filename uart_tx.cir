@@ -1,0 +1,23 @@
+* D:\eSim_tut\files\uart_tx\uart_tx.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 06/04/23 08:30:11
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U1  Net-_U1-Pad1_ Net-_U1-Pad2_ Net-_U1-Pad3_ Net-_U1-Pad4_ Net-_U1-Pad5_ Net-_U1-Pad6_ uart_tx		
+U6  1 2 3 4 Net-_U1-Pad1_ Net-_U1-Pad2_ Net-_U1-Pad3_ Net-_U1-Pad4_ adc_bridge_4		
+U7  Net-_U1-Pad5_ Net-_U1-Pad6_ out1 out2 dac_bridge_2		
+v1  1 GND pulse		
+v2  2 GND pulse		
+v3  3 GND pulse		
+v4  4 GND pulse		
+U8  out1 plot_v1		
+U9  out2 plot_v1		
+U2  1 plot_v1		
+U4  2 plot_v1		
+U5  3 plot_v1		
+U3  4 plot_v1		
+
+.end
